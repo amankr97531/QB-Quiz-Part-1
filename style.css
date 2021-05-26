@@ -1,0 +1,259 @@
+{
+	padding:;
+	margin: ;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "lato";
+}
+
+.wrapper {
+	display:row;
+	justify-content:center;
+	align-items: center;
+	width: relative;
+	height: 100%;
+	background-color:#81ecec;
+	
+}
+.wrapper1 {
+	display:;
+	
+	width:relative;
+	height: 100vh;
+	background-color:#81ecec;
+	
+	
+}
+
+.wrapper2 {
+	display:;
+	justify-content:center;
+	align-items: center;
+	width:relative;
+	height: 100vh;
+	background-color:#81ecec;
+	font-size:25px;
+	
+	
+}
+
+.congrats{
+	width:70%;
+	height:60%;
+	box-shadow:0px 2px 5px 1px rgba(0.5, 0.5, 0.5, 0.5);
+	z-index:2;
+	font-size:33px;
+	background-color:#00cec9;
+	
+	
+}
+.welcome_text {
+	background-color:;
+	width:70%;
+	margin-left:15%;
+	margin-top:20%;
+}
+.welcome_form input, 
+.welcome_form button {
+	display:block;
+	width:100%;
+}
+.welcome_form input {
+	margin-bottom:15px;
+	background-color:transparent;
+	border:none;
+	border-bottom: 2px solid #fff;
+	color:white;
+	font-size:25px;
+	text-align:center;
+}
+.welcome_form button {
+	font-size:40px;
+	paading:20 10px;
+	background-color:white;
+	color: #341f97;
+	border:none;
+	border:radius:100px;
+	transition:0.5s all;
+}
+.welcome_form button:hover {
+	transform: translatey(-5px);
+	cursor:pointer;
+}
+.welcome_form input:focus, 
+.welcome_form button:focus {
+	outline: none;
+}
+
+.quiz {
+	border-radius:3px;
+	display:grid;
+	grid-template-rows: 60px auto;
+	width:90%;
+	height:70%;
+	background-color:#00cec9;
+	box-shadow:0px 2px 5px 1px rgba(0, 0, 0, 0.3);
+	margin-left:5%;
+	font-size:25px;
+}
+.quiz_header {
+	display:flex;
+	justify-content:space-between;
+	background-color:#ffeaa7;
+	border-top-left-radius:px;
+	border-top-right-radius:px;
+	box-shadow:0px 2px 5px 1px rgba(0, 0, 0, 0.3);
+	z-index:2;
+	color:red;
+	
+}
+
+.quiz_body {
+	background-color:#dfe6e9;
+	padding:30px;
+	width:91%;
+}
+
+.quiz_user {
+	display:flex;
+	align-items:center;
+	padding-left:10px;
+}
+
+.quiz_timer {
+	display:flex;
+	align-items:center;
+	padding-right:10px;
+	padding-left:10px;
+	background-color: #55efc4;
+}
+.option_group {
+	list-style:none;
+	margin:30px 0 ;
+	margin-left:-20px;
+}
+.option {
+	background-color:#74b9ff;
+	width:70%;
+	padding:20px 15px;
+	margin-bottom:15px;
+	border-radius:50px;
+	border:2px solid transparent;
+	box-shadow:0px 0px 10px 2px rgba(0, 0, 0, 0.1);
+	font-size:20px;
+}
+
+.option:hover {
+	cursor: pointer;
+	border: 2px solid #341f97;
+}
+.btn-next {
+	background-color:#0984e3;
+	color:#fff;
+	padding:15px 35px;
+	border:none;
+	border-radius:20px;
+	transition:0.4s all;
+	font-size:20px;
+}
+.btn-next:hover {
+	cursor:pointer;
+	background-color:blue;
+	color:#fff;
+	bos-shadow:0px 0px 10px 2px rgba(0, 0, 0, 0.3);
+	font-size:30px;
+}
+
+.active {
+	 background-color:#341f97;;
+	 color:#fff !important;
+ }
+ 
+ .user_name,
+ .user_points,
+ .user_time {
+	 color:#fff;
+	 text-align:center;
+	 margin-top:0px;
+	 margin-bottom:0px;
+ }
+
+
+
+
+
+
+
+.shimmer {
+  font-family: "Lato";
+  font-weight: 100;
+  font-size: 1REM;
+  margin: 0 auto;
+  padding: 20px;
+  display: inline;
+  margin-bottom: 0;
+}
+.shimmer {
+  text-align: center;
+  color: rgba(255,255,255,0.1);
+  background: -webkit-gradient(linear, left top, right top, from(#222), to(#222), color-stop(0.5, #fff));
+  background: -moz-gradient(linear, left top, right top, from(#222), to(#222), color-stop(0.5, #fff));
+  background: gradient(linear, left top, right top, from(#222), to(#222), color-stop(0.5, #fff));
+  -webkit-background-size: 125px 100%;
+  -moz-background-size: 125px 100%;
+  background-size: 125px 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  -webkit-animation-name: shimmer;
+  -moz-animation-name: shimmer;
+  animation-name: shimmer;
+  -webkit-animation-duration: 2s;
+  -moz-animation-duration: 2s;
+  animation-duration: 2s;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-color: #222;
+  font-size:25px;
+}
+@-moz-keyframes shimmer {
+  0% {
+    background-position: top left;
+  }
+  100% {
+    background-position: top right;
+  }
+}
+@-webkit-keyframes shimmer {
+  0% {
+    background-position: top left;
+  }
+  100% {
+    background-position: top right;
+  }
+}
+@-o-keyframes shimmer {
+  0% {
+    background-position: top left;
+  }
+  100% {
+    background-position: top right;
+  }
+}
+@keyframes shimmer {
+  0% {
+    background-position: top left;
+  }
+  100% {
+    background-position: top right;
+  }
+}
+
+
+
+
