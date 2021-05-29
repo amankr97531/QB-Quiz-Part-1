@@ -64,6 +64,158 @@ let questions = [
 		   "Extends",
 		   "None of these"]
 	     },	 
+		 
+	{
+	id:7,		 
+		question:"Q7: Visual basic is a tool that allows to develop windows.............. application ",
+		 answer: "GUI(Graphical user interface)",
+		 options:[
+		   "GUI(Graphical user interface)",
+		   "GUI(Graphical user interrupts)",
+		   "GUI(Graphical user information)",
+		   "GIU(Graphical interface user)"]
+	     },	 
+		 
+		 {
+	id:8,		 
+		question:"Q8: Visual basic program built around............",
+		 answer: "Controls",
+		 options:[
+		   "Methods",
+		   "Controls",
+		   "Properties",
+		   "Events"]
+	     },	 
+		 
+		  {
+	id:9,		 
+		question:"Q9:All the control in tool box expected......... are objects in VB ",
+		 answer: "Pointers",
+		 options:[
+		   "Image control",
+		   "Data",
+		   "Picture box",
+		   "Pointers"]
+	     },	 
+		 {
+	id:10,		 
+		question:"Q10:The ............ consists of the title bar,menu bar and tool bar",
+		 answer: "Main window",
+		 options:[
+		   "Tool box",
+		   "Properties window",
+		   "Main window",
+		   "Project explorer window"]
+	     },	 
+		 {
+	id:11,		 
+		question:"Q11:Which is not a common control event",
+		 answer: "Single click",
+		 options:[
+		   "Single click",
+		   "Click",
+		   "Double click",
+		   "Mouse move"]
+	     },	 	 
+		 {
+	id:12,		 
+		question:"Q12:A check box can also appear as",
+		 answer: "Button",
+		 options:[
+		   "Button",
+		   "Radio button",
+		   "Scroll bar",
+		   "Both a and b"]
+	     },	 	 
+		 
+		  {
+	id:13,		 
+		question:"Q13:To show system date and time we use.......",
+		 answer: "Now",
+		 options:[
+		   "Date",
+		   "Time",
+		   "Now",
+		   "None of these"]
+	     },	 	 
+		 
+		 	  {
+	id:14,		 
+		question:"Q14:A table cam be deleted from the database by using .........",
+		 answer: "Drop",
+		 options:[
+		   "Delete",
+		   "Drop",
+		   "Exit",
+		   "None of these"]
+	     },	 	 
+		 
+		 
+		 	  {
+	id:15,		 
+		question:"Q15:Face is an attribute of ........ tag",
+		 answer: "Font",
+		 options:[
+		   "Table",
+		   "Body",
+		   "Img",
+		   "Font"]
+	     },	 	 
+		 
+		 	  {
+	id:16,		 
+		question:"Q16:UNIX is a .......... and ............ operating system",
+		 answer: "Multiprocessing and multitasking",
+		 options:[
+		   "Singleprocessing and single tasking",
+		   "Multiprocessing and multitasking",
+		   "Singleprocessing and multitasking",
+		   "Multiprocessing and singletasking"]
+	     },	 	 
+		 
+		  	  {
+	id:17,		 
+		question:"Q17:PID stands for ............",
+		 answer: "Process identification",
+		 options:[
+		   "Process interface data",
+		   "Process identification",
+		   "Process independently",
+		   "None of these"]
+	     },	 	 
+		 
+		   {
+	id:18,		 
+		question:"Q18:PERT stands for ............",
+		 answer: "Program evaluation and review",
+		 options:[
+		   "Program evaluation and report",
+		   "Process evaluation and review",
+		   "Program evaluation and review",
+		   "None of these"]
+	     },	 
+
+  {
+	id:19,		 
+		question:"Q19:PDU stands for ............",
+		 answer: "Protocol data unit",
+		 options:[
+		   "Protocol device unit",
+		   "Protocol data unit",
+		   "Process data unit",
+		   "Process device unit"]
+	     },	 
+
+{
+	id:20,		 
+		question:"Q20:SRS stands for ............",
+		 answer: "System requirement specification",
+		 options:[
+		   "System requirement specification",
+		   "System requirement software",
+		   "system requirement security",
+		   "System record software"]
+	     },	 		 
  ];
 
 function submitForm(e){
@@ -108,6 +260,8 @@ function next() {
 	
 	question_count ++;
 	show(question_count);
+	
+	
 	
 }
  function show(count) {
